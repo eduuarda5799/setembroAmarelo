@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background: #fffbea;
+    color: #333;
+    line-height: 1.6;
+}
+/*cabeçalho*/
+header{
+    background: #ffd60a;
+    color: #222;
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-bottom: 0.5rem;
+}
+header h1{
+    font-size: 2.5rem;
+}
+head p{
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+/*lista*/
+ul{
+    list-style: "🌻";
+    padding: 1rem;
+}
+.img{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagem{
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+    border: 2px solid#333;
+    box-shadow: 4px apx 12px rgba(0, 0, 0, 1);
+}
+/*banner*/
+.banner {
+    background: #ffef96;
+    text-align: center;
+    margin: 0.5rem auto;
+    padding: 3rem 1rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 4);
+}
+.banner h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #444;
+}
+/*conteudo*/
+main{
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: o 1rem;
+}
+article{
+    margin-bottom: 2rem;
+}
+article h3{
+    color: #b8860d;
+    margin-bottom: 0,5rem;
+}
+/*formulario*/
+form{
+    background-color: #fff8d6;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+form label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+form input, form textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+form button{
+    background-color: #ffd700;
+    color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0,3s;
+}
+form button:hover{
+    background-color: #ffcc00;
+}
+footer{
+    text-align: center;
+    padding: 20px 0;
+    background-color: #ffe066;
+    margin-top: 40px;
+}
+footer p{
+    color: #333;
+}
+/*botao*/
+.cta{
+    text-align: center;
+    margin: 2rem;
+}
+.cta a{
+    background: #ffd60a;
+    color: #222;
+    padding: 0.8rem 1.5rem;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+.cta a:hover{
+    background: #ffcc00;
+}
